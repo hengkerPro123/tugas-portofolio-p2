@@ -1,62 +1,29 @@
-
-:root {
-  --bg-color: #f5f5f5;
-  --text-color: #222;
-  --accent-color: #007bff;
-}
-
-#toggle-mode:checked ~ .container {
-  --bg-color: #121212;
-  --text-color: #f5f5f5;
-  --accent-color: #00b7ff;
-}
-
-
 body {
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
-  background: var(--bg-color);
-  color: var(--text-color);
+  background: #f5f5f5;
+  color: #222;
   margin: 0;
-  transition: background 0.3s, color 0.3s;
-}
-
-.theme-toggle {
-  position: fixed;
-  top: 15px;
-  right: 15px;
-}
-
-.theme-toggle input {
-  display: none;
-}
-
-.theme-toggle label {
-  font-size: 1.5rem;
-  cursor: pointer;
-  user-select: none;
 }
 
 .container {
-  background: var(--bg-color);
-  color: var(--text-color);
+  background: #fff;
   max-width: 800px;
-  margin-top: 80px;
+  margin-top: 60px;
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
-  transition: background 0.3s, color 0.3s;
 }
 
 .profile-img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 3px solid var(--accent-color);
-  background: url("foto royan.jpeg") center/cover no-repeat;
+  border: 3px solid #007bff;
+  background: url("foto_royan.jpg") center/cover no-repeat;
   margin: 0 auto 20px;
 }
 
@@ -68,7 +35,7 @@ h1 {
 .subtitle {
   text-align: center;
   font-style: italic;
-  color: var(--accent-color);
+  color: #007bff;
   margin-bottom: 20px;
 }
 
@@ -77,13 +44,13 @@ section {
 }
 
 h2 {
-  color: var(--accent-color);
-  border-bottom: 2px solid var(--accent-color);
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
   padding-bottom: 5px;
 }
 
 a {
-  color: var(--accent-color);
+  color: #007bff;
   text-decoration: none;
 }
 
