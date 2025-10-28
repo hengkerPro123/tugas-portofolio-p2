@@ -23,7 +23,7 @@ body {
   height: 120px;
   border-radius: 50%;
   border: 3px solid #007bff;
-  background: url("foto_royan.jpg") center/cover no-repeat;
+  background: url("foto_royan.jpeg") center/cover no-repeat;
   margin: 0 auto 20px;
 }
 
@@ -57,3 +57,4 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
